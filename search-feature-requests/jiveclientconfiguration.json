@@ -1,0 +1,31 @@
+{
+    "clientUrl": "http://localhost",
+    "port": "8090",
+	"clientUrlExcludesPort": true,
+	"extensionInfo": {
+		"id": "cedaaa46-a8d4-436a-a8a0-ecbc9c21040c",
+		"uuid": "cedaaa46-a8d4-436a-a8a0-ecbc9c21040c",
+		"name": "SearchFeatureRequests",
+		"description": "Display a list of existing feature requests matching a keyword",
+		"icon_16": "extension-16.png",
+		"icon_48": "extension-48.png",
+		"icon_128": "extension-128.png",
+		"releasedOn": "2016-07-13T18:57:08.159Z"
+	},
+	"otherPropertiesToConsider" : {
+		"ignoreExtensionRegistrationSource": true,
+		"suppressAddonRegistration" : true,
+		"extensionInfo": {
+			"registerURL": "%serviceURL%/jive/oauth/register",
+			"unregisterURL": "%serviceURL%/jive/oauth/unregister",
+			"redirectURL" : "%serviceURL%/oauth/authorize",
+			"health_url": "%serviceURL%/monitor/health",
+			"config_url": "%serviceURL%/configure",
+			"author" : "Modified from code authored by Tyler Ishikawa",
+			"author_affiliation" : "Modified by code authored by Medidata Solutions",
+			"author_email" : "Modified from code authored by tyishikawa@mdsol.com",
+			"website_url": "Modified from code published on https://github.com/mdsol/jive",
+			"tags": "jive,integration,service,addon,idea"
+		}
+	}
+}
