@@ -1,8 +1,8 @@
 # Jive-tiles
 
-This tile is a modification of the `ask-a-question` tile available here: [https://github.com/mdsol/jive](https://github.com/mdsol/jive).
+This Jive-n/Jive-x tile is a modification of the `ask-a-question` tile available here: [https://github.com/mdsol/jive](https://github.com/mdsol/jive).
 
-Our users wanted to ability to see what ideas had already been submitted before submitting a new one. This tile provides a search field that displays a list of existing feature requests matching a keyword, including the status (Open for Voting, etc.), author, and data submitted. (This can be modified. See below.) A button at the bottom of the list of results opens a new feature request form. The number of search results to show and which spaces to search are configurable when installing the tile.
+Our users wanted to ability to see what ideas had already been submitted before submitting a new one. This tile provides a search field that displays a list of existing ideas matching a keyword, including the status (Open for Voting, etc.), votes and voting, author, and date submitted. (This can be modified. See below.) A button at the bottom of the list of results opens a new idea form. The number of search results to show and which spaces to search are configurable when installing the tile.
 
 ## Prerequisites
 - Jive SDK
