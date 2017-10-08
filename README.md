@@ -4,6 +4,8 @@ This Jive-n/Jive-x tile is a modification of the `ask-a-question` tile available
 
 Our users wanted to ability to see what ideas had already been submitted before submitting a new one. This tile provides a search field that displays a list of existing ideas matching a keyword, including the status (Open for Voting, etc.), votes and voting, author, and date submitted. (This can be modified. See below.) A button at the bottom of the list of results opens a new idea form. The number of search results to show and which spaces to search are configurable when installing the tile.
 
+In our company we call Jive ideas "feature requests" - thus the filenames and language below. Below are instructions to call them whatever you want.
+
 ## Prerequisites
 - Jive SDK
 - Command-line tool like Bash
